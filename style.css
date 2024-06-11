@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;;
+}
+
+.nav-logo{
+    height:50px;
+    width:115px;
+}
+.logo{
+    background-image:url("logo.png");
+    height:50px;
+    width:100%;
+    background-size:cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    position: relative;
+}
+.border:hover{
+    border-color:white;
+}
+
+/* nav-address */
+.nav-address{
+    height:43px;
+    padding-top: 7px;
+    width:70px;
+    text-align:center;
+}
+
+.deliver{
+    font-size: 12px;
+    font-weight:lighter;
+    color:#cccccc;
+    margin-left: 15px;
+}
+.india{
+    font-size: 14px;
+    font-weight:bolder;
+    color: #ffffff;
+    margin-left: 6px;
+}
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+/* nav-dropdown */
+.nav-search{
+    height:35px;
+    display:flex;
+    align-items: center;
+    border: 3px solid transparent;
+}
+.nav-search:hover{
+    border-color:orange;
+    border-radius: 5px;
+}
+.dropdown{
+    height:35.2px;
+    width: 40px;
+    background-color: rgb(223, 221, 221);
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: none;
+    font-size:12px;
+}
+
+.dropdown:hover{
+    background-color: rgb(208, 206, 206);
+}
+
+#search-bar{
+    height:33.2px;
+    width: 600px;
+    border:none;
+    font-size: 15px;
+}
+
+.search-icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #febd69;
+    width: 40px;
+    height:35px;
+    margin-top: 0.2px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    border:none;
+}
+.search-icon i{
+    color:#131921;
+    font-size: 22px;
+}
+.search-icon:hover{
+    background-color: #f4ae52;
+}
+
+/* languauge change */
+.language{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language:hover{
+    border-color: white;;
+}
+.language img{
+    margin: 4px 0px 0px 2px;
+    height: 14px;
+    position: relative;
+    top: 5px;
+}
+.lang-drop{
+    background-color: #131921;
+    border: none;
+    color:white;
+    font-weight: bolder;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    border:none;
+}
+
+/* sign-in */
+.sign-in{
+    height:85%;
+    display: flex;
+    align-items: center;
+}
+.sign-in:hover{
+    border-color: white;
+}
+.hello{
+    font-size:0.7rem;
+}
+.Acc{
+    font-size: 14px;
+    font-weight: 700;
+}
+.Acc select{
+    display: inline-block;
+    background-color: #131921;
+    border:none;
+    color:grey;
+}
+
+/* retuns & Orders */
+.return{
+    height:85%;
+    display: flex;
+    align-items: center;
+}
+.return:hover{
+    border-color: white;
+}
+.returns{
+    font-size:0.7rem;
+}
+.orders{
+    font-size: 14px;
+    font-weight: 700;
+}
